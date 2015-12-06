@@ -30,8 +30,26 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="C:/mingw_dev_lib/i686-w64-mingw32/include/SDL2" />
+			<Add directory="C:/Users/Kone/Desktop/ohjelma/cavestory/treeni/headers" />
+			<Add directory="C:/mingw_dev_lib/SDL2_image-2.0.0/i686-w64-mingw32/include/SDL2" />
 		</Compiler>
-		<Unit filename="01_hello_SDL.cpp" />
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
+			<Add directory="C:/mingw_dev_lib/i686-w64-mingw32/lib" />
+			<Add directory="C:/mingw_dev_lib/SDL2_image-2.0.0/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="content/sprites/MyChar.png" />
+		<Unit filename="headers/game.h" />
+		<Unit filename="headers/globals.h" />
+		<Unit filename="headers/graphics.h" />
+		<Unit filename="headers/input.h" />
+		<Unit filename="headers/sprite.h" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/graphics.cpp" />
+		<Unit filename="src/input.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/sprite.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

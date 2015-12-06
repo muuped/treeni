@@ -329,7 +329,7 @@
 	<map>
 	<string>
 
-1449347075 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\main.cpp
+1449354588 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\main.cpp
 	"game.h"
 
 1449347075 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\input.cpp
@@ -339,9 +339,10 @@
 	<SDL.h>
 	<map>
 
-1449347075 c:\users\kone\desktop\ohjelma\cavestory\treeni\headers\game.h
+1449353635 c:\users\kone\desktop\ohjelma\cavestory\treeni\headers\game.h
+	"sprite.h"
 
-1449349020 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\game.cpp
+1449407691 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\game.cpp
 	<SDL.h>
 	"game.h"
 	"graphics.h"
@@ -353,7 +354,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1449352531 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\sprite.cpp
+1449410394 source:c:\users\kone\desktop\ohjelma\cavestory\treeni\src\sprite.cpp
 	"sprite.h"
 	"graphics.h"
 
